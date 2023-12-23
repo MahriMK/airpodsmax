@@ -1,0 +1,46 @@
+.battery {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 80px 0;
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    // font-weight: 500;
+
+    &--box {
+      max-width: 435px;
+      margin: 0 auto;
+    }
+  }
+
+  &__img {
+    margin-bottom: 80px;
+  }
+
+  &__slogan {
+    margin-bottom: 40px;
+  }
+
+  &__num {
+    font-size: 210px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .battery {
+    &__text {
+      font-size: 14px;
+    }
+
+    &__num {
+      font-size: 150px;
+    }
+  }
+}
